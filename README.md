@@ -15,14 +15,19 @@ Dado este proyecto en NodeJS, crea su Dockerfile sabiendo que nos han pedido com
 
 Sube la imagen de Docker a DockerHub.
 
+![](assets/docker.png)
 ## Práctica 3
 
 Automatiza el proceso de creación de la imagen de Docker y su subida a Docker Hub después de cada cambio en el repositorio utitlizando Github Actions.
 
+![](assets/github-actions.png)
 ## Práctica 4
 
 Se debe crear una aplicación en Heroku y desplegarla allí usando github actions.
 
+![](assets/heroku.png)
 ### Resultado:
 
 ![desafio 1](./assets/1.png)
+
+docker run -ti -p 8888:8888 --name bootcamp-4-challenge-cicd waltergsteven/ubuntu_node
